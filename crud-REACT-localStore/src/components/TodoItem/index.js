@@ -1,6 +1,5 @@
 import React from 'react';
-import './TodoItem.css';
-
+import '../../stilos.css';
 function TodoItem(props) {
   return (
     <li className="TodoItem">
