@@ -17,7 +17,7 @@ const Usuaio = ({ usuario }) => {
         <Fragment>
 
             <h1>Actividad pendiente</h1>
-
+            
             <hr />
             <div>
                 <Avatar/>

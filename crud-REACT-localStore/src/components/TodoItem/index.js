@@ -1,6 +1,7 @@
 import React from 'react';
 import { Fragment} from 'react/cjs/react.production.min';
 import { Usuaio } from '../util/Usuario';
+import { Fechas } from '../util/Fechas';
 import '../../stilos.css';
 
 function TodoItem(props) {
@@ -8,7 +9,10 @@ function TodoItem(props) {
 
   return (
     <Fragment>
-   <Usuaio />
+  <div>
+  <Usuaio />
+   <Fechas/>
+  </div>
      
     <li className="TodoItem">
       
@@ -29,6 +33,7 @@ function TodoItem(props) {
     </Fragment>
 
   );
+
 }
 
 export { TodoItem };
