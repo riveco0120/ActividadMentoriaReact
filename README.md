@@ -6,7 +6,7 @@ Se organizaron las carpetas separandos los compoentes y se organizo un solo arch
 La aplicacion funciona corectamente 
 ![image](https://user-images.githubusercontent.com/103125129/166334493-0a4c07b3-e8a9-43ff-a39c-3fcd35a139b1.png)
 2. Se agrega funcionalidad para agregar usuario responsable de la tarea.
-![image](https://user-images.githubusercontent.com/103125129/166345913-e5b4ca2a-1c7d-497c-b396-f9f36c85763d.png)
+![image](https://user-images.githubusercontent.com/103125129/166414434-c3549942-283b-4d5c-8e62-bdc0f834c447.png)
  Con esta funcionalidad se busca que se pueda asignar responsabilidades a un integrante del equipo, esta se ve mejor aplicada si se realiza un consumo de una base de datos. 
 ![image](https://user-images.githubusercontent.com/103125129/166345956-1b69b1e9-6e97-4405-9a24-059b55ce1e59.png)
 Se puede observar en la imagen como se puede escoger entre varios colaboradores y asignar un responsable de las diferentes tareas
