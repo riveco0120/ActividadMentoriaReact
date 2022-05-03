@@ -6,16 +6,9 @@ import '../../stilos.css';
 function TodoItem(props) {
 
 
-  const usuario ={
-    nombre:"Carlos",
-    urlImagne:"http://via.placeholder.com/64",
-  }
-
-  
-
   return (
     <Fragment>
-   <Usuaio usuario={usuario}/>
+   <Usuaio />
      
     <li className="TodoItem">
       

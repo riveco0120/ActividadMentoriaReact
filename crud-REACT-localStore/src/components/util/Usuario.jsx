@@ -4,22 +4,30 @@ import { Avatar } from './Avatar';
 const Usuaio = ({ usuario }) => {
 
 
-    const [responsable, setResponsable] = useState("");
+    const [responsable, setResponsable] = useState("Richard Vellojin");
 
+    const selecionar=(valor)=>{
+        setResponsable(valor.target.value)
+    }
+    const confirmar=(valor)=>{
+        setResponsable(valor.target.value)
+    }
 
     return (
         <Fragment>
-            <br />
+
+            <h1>Actividad pendiente</h1>
+
             <hr />
             <div>
-                <Avatar urlImagne={usuario.urlImagne} />
+                <Avatar/>
 
                 <div>
                     <h5>Responsable: {responsable}</h5>
                 </div>
-                <select id="lang" value={responsable}
-                    onChange={e => setResponsable(e.target.value)}
-                    onBlur={e => setResponsable(e.target.value)}>
+                Selecione<select id="lang" value={responsable}
+                    onChange={selecionar}
+                    onBlur={confirmar}>
                     <option value="Select">Select</option>
                     <option value="Andres">Andres</option>
                     <option value="Sandy">Sandy</option>
