@@ -28,11 +28,11 @@ const Usuaio = ({ usuario }) => {
                 Selecione<select id="lang" value={responsable}
                     onChange={selecionar}
                     onBlur={confirmar}>
-                    <option value="Select">Select</option>
-                    <option value="Andres">Andres</option>
-                    <option value="Sandy">Sandy</option>
-                    <option value="Paula">Paula</option>
-                    <option value="Jose">Jose</option>
+                    <option value={responsable}>Select</option>
+                    <option value="Andres">Andres perez</option>
+                    <option value="Sandy">Sandy camila</option>
+                    <option value="Paula">Sergio rodigues</option>
+                    <option value="Jose">Jose maria</option>
                 </select>
             </div>
         </Fragment>

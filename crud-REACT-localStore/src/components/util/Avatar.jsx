@@ -18,7 +18,7 @@ const Avatar = () => {
             <select id="lang" value={imagen}
                     onChange={selecionar}
                     onBlur={confirmar}>
-                    <option value="Select">Select</option>
+                    <option value={imagen}>Select</option>
                     <option value="https://acortar.link/omIIxc">Serio</option>
                     <option value="https://avatars.miarroba.st/Qy2weTV.png">Feliz</option>
                     <option value="https://acortar.link/j8ilfn">Perdido</option>
