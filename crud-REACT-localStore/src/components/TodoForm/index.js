@@ -1,6 +1,6 @@
 import React from 'react';
 import { TodoContext } from '../TodoContext';
-import './TodoForm.css';
+import '../../stilos.css';
 
 function TodoForm() {
   const [newTodoValue, setNewTodoValue] = React.useState('');

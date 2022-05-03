@@ -1,14 +1,17 @@
 import React from 'react';
-import { Fragment } from 'react/cjs/react.production.min';
+import { Fragment} from 'react/cjs/react.production.min';
 import { Usuaio } from '../util/Usuario';
 import '../../stilos.css';
 
 function TodoItem(props) {
 
+
   const usuario ={
-    nombre:"Carlos salas",
-    UrlImagne:"http://via.placeholder.com/64",
+    nombre:"Carlos",
+    urlImagne:"http://via.placeholder.com/64",
   }
+
+  
 
   return (
     <Fragment>
