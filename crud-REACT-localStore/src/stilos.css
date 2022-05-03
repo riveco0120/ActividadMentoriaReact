@@ -95,12 +95,16 @@
     color: #4caf50;
   }
   
-  .Icon-delete {
-    position: absolute;
-    top: -24px;
+  .delete {
+    background-color: #61DAFA;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    border: none;
+    position: relative;
+    height: 20px;
+    top: 10px;
     right: 0;
   }
-  .Icon-delete:hover {
+  .delete:hover {
     color: red;
   }
   
